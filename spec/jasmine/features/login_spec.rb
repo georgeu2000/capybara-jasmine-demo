@@ -4,7 +4,7 @@ describe 'Login' ,:js do
     visit '/'
 
     # save_and_open_screenshot
-    # puts js_body
+    # puts js_html
     # sleep 10
   end
 end

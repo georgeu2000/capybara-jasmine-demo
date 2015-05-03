@@ -12,5 +12,6 @@ group :test do
   gem 'selenium-webdriver'
   gem 'capybara-webkit'
   gem 'rb-fsevent'
+  gem 'awesome_print'
   gem 'capybara-jasmine', path:'../../gems'
 end
