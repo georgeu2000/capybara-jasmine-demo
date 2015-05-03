@@ -1,5 +1,5 @@
 
-guard :rspec, cmd: 'rspec spec', all_on_start:true do
+guard :rspec, cmd: 'bundle exec rspec', all_on_start:true do
   watch(%r{^app/(.+)\.rb$})             { 'spec' }
   watch(%r{^config/(.+)$})              { 'spec' }
   

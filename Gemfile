@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
+ruby '2.1.3'
 
 gem 'rake'
 gem 'rack'
@@ -12,4 +12,5 @@ group :test do
   gem 'selenium-webdriver'
   gem 'capybara-webkit'
   gem 'rb-fsevent'
+  gem 'capybara-jasmine', path:'../../gems'
 end

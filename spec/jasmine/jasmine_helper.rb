@@ -1,9 +1,6 @@
 require 'capybara/rspec'
 require 'capybara-webkit'
-
-require './spec/jasmine/app/init'
-require './spec/jasmine/shared/helpers'
-require './spec/jasmine/shared/matchers'
+require 'capybara-jasmine'
 
 Capybara.save_and_open_page_path = './tmp'
 Capybara.app = capybara_app
@@ -23,6 +20,6 @@ RSpec.configure do |config|
     display_jasmine_specs
     
     expect( page    ).to have_content 'finished in'
-    expect( js_body ).to jasmine_success
+    expect( js_html ).to jasmine_success
   end
 end

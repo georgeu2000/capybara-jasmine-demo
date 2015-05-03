@@ -1,7 +1,6 @@
 def app
-  Rack::Builder.new{
+  Rack::Builder.new do
     use Rack::Static, root:'public'
-    
-    run app
-  }.to_app
+    run App
+  end.to_app
 end
