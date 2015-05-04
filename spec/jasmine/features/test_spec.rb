@@ -4,9 +4,7 @@ describe 'Test' ,:js do
     visit '/'
 
     # puts js_html
-
     # save_and_open_screenshot
-    # sleep 5
   end
 
   xspecify 'failure' do

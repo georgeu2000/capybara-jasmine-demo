@@ -1,1 +1,4 @@
-# This is the demo app for capybara-jasmine.
+# Capybara-Jasmine Demo App
+
+This is a Rack app that uses Capybara-Jasmine.
+
