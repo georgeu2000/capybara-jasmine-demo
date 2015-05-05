@@ -13,5 +13,5 @@ group :test do
   gem 'capybara-webkit'
   gem 'rb-fsevent'
   gem 'awesome_print'
-  gem 'capybara-jasmine', path:'../../gems'
+  gem 'capybara-jasmine', '0.1.4'
 end
